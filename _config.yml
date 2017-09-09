@@ -81,6 +81,9 @@ deploy:
   type: git
   repository: https://github.com/songshuiyang/songshuiyang.github.io.git
   branch: master
+
+skip_render:
+  - README.md
   
 Plugins:
 - hexo-generator-feed
@@ -113,5 +116,6 @@ changyan:
   on: true
   appid: xxxx
   conf: xxxxx
+
 
 
