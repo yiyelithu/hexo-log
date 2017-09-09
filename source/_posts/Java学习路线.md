@@ -24,4 +24,6 @@ JAVA学习路线图
 
 16:Maven         17:SpringMVC      18:MyBatis
 
+<!--more-->
+
 ![logo](/images/learn-route.png) 
