@@ -45,6 +45,9 @@ tags: [Spring,velocity,Spring Mvc]
         <property name="numberToolAttribute" value="numberTool"/>
     </bean>
 # velocity.properties 配置文件 #
+该文件velocity.properties 在下面的包路径可以找到 org.apache.velocity.runtime.defaults.velocity.properties
+
+
     #设置字符集
     #encoding
     input.encoding  =UTF-8
@@ -98,3 +101,37 @@ tags: [Spring,velocity,Spring Mvc]
     Copyright &copy 2014 lm
     </body>
     </html>
+## velocity 基本语法 ##
+Velocity的基本语法：
+1、"#"用来标识Velocity的脚本语句，包括#set、#if 、#else、#end、#foreach、#end、#iinclude、#parse、#macro等；
+如:
+#if($info.imgs)
+<img src="$info.imgs" border=0>
+#else
+<img src="noPhoto.jpg">
+#end
+
+
+2、"$"用来标识一个对象(或理解为变量)；如
+如：$i、$msg、$TagUtil.options(...)等。
+
+
+3、"{}"用来明确标识Velocity变量；
+比如在页面中，页面中有一个$someonename，此时，Velocity将把someonename作为变量名，若我们程序是想在someone这 个变量的后面紧接着显示name字符，则上面的标签应该改成${someone}name。
+
+
+4、"!"用来强制把不存在的变量显示为空白。
+如当页面中包含$msg，如果msg对象有值，将显示msg的值，如果不存在msg对象同，则在页面中将显示$msg字符。这是我们不希望的，为了把不存 在的变量或变量值为null的对象显示为空白，则只需要在变量名前加一个“!”号即可。
+如：$!msg
+
+5、循#foreach( $info in $list) $info.someList #end，环读取集合list中的对象
+#foreach( $info in $hotL包含文件#inclue("模板文件名")或#parse("模板文件名")st1) 
+<a href="/blog/list?&cid=$!info.cid" target="_blank">$!info.title</a><br>
+#end 
+上面的脚本表示循环遍历hotList1集合中的对象，并输出对象的相关内容。
+
+6、包含文件#inclue("模板文件名")或#parse("模板文件名")
+主要用于处理具有相同内容的页面，比如每个网站的顶部或尾部内容。
+使用方法，可以参考EasyJF开源Blog及EasyJF开源论坛中的应用！
+如：#parse("/blog/top.html")或#include("/blog/top.html")
+parse与include的区别在于，若包含的文件中有Velocity脚本标签，将会进一步解析，而include将原样显示。
