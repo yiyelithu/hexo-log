@@ -4,9 +4,7 @@ date: 2017-09-14 15:25:44
 categories: 服务器
 tags: [java,server,jsp]
 ---
-# 
-##
- JSP脚本中包含九个内置对象，这九个内置对象都是Servlet API接口的实例，只是JSP规范对它们进行了默认初始化（由JSP页面对应的Servlet的_jspService()方法来创建这些实例),也就是说它们已经是对象，可以直接使用
+JSP脚本中包含九个内置对象，这九个内置对象都是Servlet API接口的实例，只是JSP规范对它们进行了默认初始化（由JSP页面对应的Servlet的_jspService()方法来创建这些实例),也就是说它们已经是对象，可以直接使用
 
     1	pageContext	javax.servlet.jsp.PageContext
     
