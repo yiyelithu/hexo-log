@@ -4,9 +4,14 @@ date: 2017-09-14 23:36:44
 categories: 服务器
 tags: [java,server]
 ---
+## Servlet
+服务器端小程序,运行在服务器端的程序，用于处理及响应客户端的请求,自MVC规范出现之后,Servlet仅仅只作为控制器
+
 ## Servlet和Jsp的区别
 1. Servlet中没有内置对象,原来JSP中的内置对象都必须有程序显式创建
-2. Servlet对于HTML标签只能使用页面输出流逐行输出
+2. Servlet对于HTML标签只能使用页面输出流逐行输出，所以自MVC规范出现之后,Servlet仅仅只作为控制器
+
+<!-- more -->
 
 ## @WebServlet 
 
@@ -30,3 +35,17 @@ asyncSupported	boolean	声明 Servlet 是否支持异步操作模式，等价于
 description	String	该 Servlet 的描述信息，等价于 <description>标签。
 
 displayName	String	该 Servlet 的显示名，通常配合工具使用，等价于 <display-name>标签。
+## 创建Servlet有俩个时机
+1. 用户请求某个Servlet，系统创建该Servlet的实例,所以Servlet第一次访问的时间是较长的，因为要初始化Servlet
+2. Web应用启动立即创建Servlet实例,即load-on-startup Servlet
+
+## Servlet 生命周期
+1. 创建实例
+2. Web容器调用Servlet的init方法，对Servlet进行初始化。
+3. 初始化后将一直存在于容器中，用于响应客户端请求,get post service用于响应用户请求
+4. 通常在Web应用关闭之时销毁Servlet，先调用Servlet的destory()方法
+
+## 使用Servlet作为表现层如有以下几个劣势
+1. 所有的Html标签都需要页面输出流完成
+2. 前端人员无法参与到页面的编写
+3. 可维护性差，页面代码不好调试
