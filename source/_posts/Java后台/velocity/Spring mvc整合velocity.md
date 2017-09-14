@@ -21,7 +21,7 @@ tags: [Spring,velocity,Spring Mvc]
             <artifactId>spring-context-support</artifactId>
             <version>${spring.version}</version>
         </dependency>
-
+<!--more-->
 # applicationContext-mvc配置文件: #
     <!--》》》》》》》》》》》》》》》   添加velocity显示技术 》》》》》》》》》》》》》》》》》-->
     <!-- velocity环境配置 -->
