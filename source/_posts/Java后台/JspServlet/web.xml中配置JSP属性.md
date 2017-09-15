@@ -26,6 +26,7 @@ tags: [java,server,jsp]
 <jsp-config>中可以包含任意数目的<jsp-property-group>标签。通过为<jsp-property-group>定义不同的<url-pattern>标签来区分不同的属性组。
 <include-prelude>标签，将告诉容器在所有属于改该属性组的JSP的头部添加文件/WEB-INF/jsp/base.jspf。
 <include-coda>标签定义了包含在组中所有JSP尾部的文件。
+
 在一个JSP组中可以同时使用这些标签多次。
 <page-encoding>与page指令的pageEncoding特性一致。
 <default-content-type>标签可以定义内容类型，默认为text/html
