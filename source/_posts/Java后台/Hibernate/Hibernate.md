@@ -1,8 +1,8 @@
 ---
-title: Hibernate
+title: Hibernate 例子
 date: 2017-09-23 23:28:12
 categories: server
-tags: [Java] 
+tags: [Java,Hibernate] 
 ---
 ## 概述:
 >面向Java环境的对象/关系数据库映射工具,用于将面向对象模型表示的对象映射到基于SQL的关系模型的数据结构中,消除那些针对特定数据库厂商的SQL代码,并把结果集从表格式的形式转换成值对象的形式

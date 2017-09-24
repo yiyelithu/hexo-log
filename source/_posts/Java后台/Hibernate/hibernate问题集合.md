@@ -1,8 +1,8 @@
 ---
-title: Hibernate
+title: Hibernate 问题记录
 date: 2017-09-24 16:54:12
 categories: server
-tags: [Java] 
+tags: [Java,Hibernate] 
 ---
 ### org.hibernate.MappingException: Unknown entity常见问题
 
