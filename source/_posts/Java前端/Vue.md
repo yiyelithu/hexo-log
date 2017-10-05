@@ -19,7 +19,7 @@ mounted ：完成挂载
 
 生命周期
 
-![lifecyc](/images/client/vue lifecycle.png)
+![lifecyc](/images/client/lifecycle.jpg)
 
 生命周期钩子
 
@@ -35,7 +35,7 @@ v-model 指令，它能轻松实现表单输入和应用状态之间的双向绑
  
 如果你知道你会在晚些时候需要一个属性，但是一开始它为空或不存在，那么你仅需要设置一些初始值。比如：
 
-```aidl
+```json
 data: {
   newTodoText: '',
   visitCount: 0,
@@ -44,3 +44,49 @@ data: {
   error: null
 }
 ```
+### 一个对象的 v-for
+
+```html
+<div v-for="(value, key, index) in object">
+  {{ index }}. {{ key }}: {{ value }}
+</div>
+```
+```angularjs
+new Vue({
+  el: '#v-for-object',
+  data: {
+    object: {
+      firstName: 'John',
+      lastName: 'Doe',
+      age: 30
+    }
+  }
+})
+```
+索引 key value
+
+````html
+<div v-for="(value, key, index) in object">
+  {{ index }}. {{ key }}: {{ value }}
+</div>
+````
+
+```html
+<!-- 阻止单击事件冒泡 -->
+<a v-on:click.stop="doThis"></a>
+<!-- 提交事件不再重载页面 -->
+<form v-on:submit.prevent="onSubmit"></form>
+<!-- 修饰符可以串联 -->
+<a v-on:click.stop.prevent="doThat"></a>
+<!-- 只有修饰符 -->
+<form v-on:submit.prevent></form>
+<!-- 添加事件侦听器时使用事件捕获模式 -->
+<div v-on:click.capture="doThis">...</div>
+<!-- 只当事件在该元素本身 (比如不是子元素) 触发时触发回调 -->
+<div v-on:click.self="doThat">...</div>
+```
+
+
+
+
+
