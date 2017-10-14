@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="059fcb56-9339-458d-89ac-61333640a5f5" name="Default" comment="" />
+    <list default="true" id="059fcb56-9339-458d-89ac-61333640a5f5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,18 +53,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hibernate Validator.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Hibernate Validator.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/Java后台/Hibernate/Hibernate Validator.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="228">
-                <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <first_editor relative-caret-position="190">
+                <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
                 <folding>
                   <marker date="1507963248048" expanded="true" signature="1643:1904" ph="{...}" />
                   <marker date="1507963248048" expanded="true" signature="1931:2102" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,19 +107,6 @@
       </file>
       <file leaf-file-name="Hibernate.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/Java后台/Hibernate/Hibernate.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Java移位运算.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/Java后台/Java/Java移位运算.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
@@ -214,6 +214,7 @@
         <option value="$PROJECT_DIR$/source/_posts/随笔/网易云.md" />
         <option value="$PROJECT_DIR$/source/_posts/Java后台/编译构建部署版本工具/grandle.md" />
         <option value="$PROJECT_DIR$/source/_posts/Java后台/Hibernate/Hibernate Validator.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -260,63 +261,7 @@
             <path>
               <item name="hexo-log" type="b2602c69:ProjectViewProjectNode" />
               <item name="hexo-log" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexo-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexo-log" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexo-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexo-log" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="Java后台" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexo-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexo-log" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="Java后台" type="462c0819:PsiDirectoryNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexo-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexo-log" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="Java后台" type="462c0819:PsiDirectoryNode" />
-              <item name="编译构建部署版本工具" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexo-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexo-log" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="技术" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexo-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexo-log" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="随笔" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexo-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexo-log" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexo-log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexo-log" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -502,7 +447,7 @@
       <workItem from="1507471794706" duration="1894000" />
       <workItem from="1507550503472" duration="1463000" />
       <workItem from="1507552113389" duration="2098000" />
-      <workItem from="1507956585578" duration="5831000" />
+      <workItem from="1507956585578" duration="6435000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1504940216688</created>
@@ -816,7 +761,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121666000" />
+    <option name="totallyTimeSpent" value="122270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -933,16 +878,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/Java后台/JspServlet/Servlet.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/CNAME">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1383,14 +1318,22 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/Java后台/Hibernate/Hibernate Validator.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="228">
-            <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             <folding>
               <marker date="1507963248048" expanded="true" signature="1643:1904" ph="{...}" />
               <marker date="1507963248048" expanded="true" signature="1931:2102" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
