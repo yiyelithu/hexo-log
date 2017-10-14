@@ -8,12 +8,6 @@ tags: [Java,Hibernate]
 Hibernate Validator 是 Bean Validation 的参考实现 。Hibernate Validator 提供了 JSR 303 规范中所有内置 constraint 的实现，除此之外还有一些附加的 constraint。
 在日常开发中，Hibernate Validator经常用来验证bean的字段，基于注解，方便快捷高效。
 
-| 水果        | 价格    |  数量  |
-    | --------   | -----:   | :----: |
-    | 香蕉        | $1      |   5    |
-    | 苹果        | $1      |   6    |
-    | 草莓        | $1      |   7    |
-
 #### 1. Bean Validation 中内置的 constraint
 |注解            |          作用|
 | --------       | :----: |
