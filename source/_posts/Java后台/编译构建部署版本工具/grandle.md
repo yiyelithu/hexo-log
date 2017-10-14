@@ -5,6 +5,15 @@ categories: server
 tags: [java] 
 ---
 ### Grandle
-gradle.gif
-![grandle](/images/gradle.gif)
+![gradle](/images/server/gradle.gif)
+
+#### 易百教程
+http://www.yiibai.com/gradle/
+
+#### Gradle学习系列之一——Gradle快速入门
+
+http://www.cnblogs.com/CloudTeng/p/3417762.html
+
+#### android grandle
+
 http://www.jianshu.com/p/9df3c3b6067a
