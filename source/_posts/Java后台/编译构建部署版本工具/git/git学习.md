@@ -49,3 +49,10 @@ $ git congig --global alias.br branch
     plode = pull origin develop
     pho = push origin
 ```
+### 3. 配置文件
+>Git的三个配置文件
+1. 版本库级别的配置文件,文件路径: `项目路径/.git/config`
+2. 全局配置文件, 文件路径: `用户目录/.gitconfig` 
+3. 系统级配置文件,文件路径: `安装目录/etc目录下`
+
+优先级: 版本库级别的配置文件 >  全局配置文件  > 系统级配置文件
