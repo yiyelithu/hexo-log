@@ -62,6 +62,7 @@ $ git congig --global alias.br branch
 实际上就是一个包括文件索引的目录树,像是一个虚拟的工作区,记录了文件名和文件的状态信息(时间戳和文件长度),文件的内容保存在`.git/objects目录下`,文件索引建立了文件和对象库中对象实体之间的对应
 
 工作区,版本区,暂存区原理图
+
 ![git](/images/server/git/git-image.jpg)
 
 
