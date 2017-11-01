@@ -90,6 +90,28 @@ new Vue({
 <div v-on:click.self="doThat">...</div>
 ```
 
+### vue模板只能有一个根对象
+```sql
+<template>
+  <h2>底部</h2>
+  <span v-text="msgFromFather"></span>
+</template>
+```
+报错
+```sql
+Component template should contain exactly one root element. If you are using v-if on multiple elements, use v-else-if to chain them instead.
+```
+原来vue模板只能有一个根对象
+所以你想要出现正常的效果，你的用一个div来或是别的标签来包裹全部的元素
+```html
+<template>
+   <div>
+	 <h2>底部</h2>
+	 <span v-text="msgFromFather"></span>
+   </div>
+</template>
+```
+
 
 
 
