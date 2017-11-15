@@ -7,6 +7,7 @@ tags: [java,Spring]
 ## Spring Task
 >spring task作为定时任务的处理,是Spring自带的一个设定时间自动任务调度,提供了两种方式进行配置，一种是注解的方式，而另外一种就是XML配置方式了。
 
+<!--more-->
 ### 基于XML配置文件的方式
 >applicationContext.xml
 ```xml
