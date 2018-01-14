@@ -106,7 +106,10 @@ public class ELConfig {
         logger.info("environment: " + environment.getProperty("book.author"));
     }
 }
+
 ```
+
+<!--more-->
 > ELService.java
 ```java
 package com.smart.boot.el;
