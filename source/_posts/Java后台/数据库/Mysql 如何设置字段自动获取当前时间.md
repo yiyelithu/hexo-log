@@ -15,13 +15,13 @@ tags: [db]
 ```sql
 --修改CreateTime 设置默认时间 CURRENT_TIMESTAMP 
 ALTER TABLE `table_name`
-MODIFY COLUMN  `CreateTime` datetime NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间' ;
+MODIFY COLUMN  `created_date` datetime NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间' ;
 
 
 --修改 UpdateTime 设置 默认时间 CURRENT_TIMESTAMP   设置更新时间为 ON UPDATE CURRENT_TIMESTAMP 
 
 ALTER TABLE `table_name`
-MODIFY COLUMN `UpdateTime` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '创建时间' ;
+MODIFY COLUMN `last_modified_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间' ;
 ```
 
 转自：https://www.cnblogs.com/lhj588/p/4245719.html
