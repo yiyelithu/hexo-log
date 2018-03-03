@@ -1,6 +1,6 @@
 ---
 title: 　animate.css
-date: 2017-10-05 10:52:12
+date: 2018-03-03 10:52:12
 categories: client
 tags: [css] 
 ---
