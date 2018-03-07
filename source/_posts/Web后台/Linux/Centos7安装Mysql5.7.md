@@ -1,6 +1,6 @@
 ---
 title: Centos7安装Mysql5.7.md
-date: 2018-03-53 20:30:44
+date: 2018-03-07 20:30:44
 categories: 服务器
 tags: [java,server]
 ---
