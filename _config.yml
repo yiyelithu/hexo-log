@@ -79,8 +79,7 @@ theme: black-blue
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://songshuiyang:yang5673448@github.com/songshuiyang/songshuiyang.github.io.git
-  #repository: https://github.com/songshuiyang/songshuiyang.github.io.git
+  repository: https://github.com/songshuiyang/songshuiyang.github.io.git
   #repository: git@github.com:songshuiyang/songshuiyang.github.io.git
   branch: master
   
